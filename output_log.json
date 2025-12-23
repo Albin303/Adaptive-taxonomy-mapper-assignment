@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "tags": [
+            "Love"
+        ],
+        "blurb": "They hated each other for years, working in the same cubicle, until a late-night deadline changed everything.",
+        "mapping": "Romance: Enemies-to-Lovers",
+        "reasoning": "Strong match in blurb with keywords: hated, cubicle, deadline changed. Mapped to Enemies-to-Lovers under Romance."
+    },
+    {
+        "id": 2,
+        "tags": [
+            "Action",
+            "Spies"
+        ],
+        "blurb": "Agent Smith must recover the stolen drive without being detected by the Kremlin.",
+        "mapping": "Thriller: Espionage",
+        "reasoning": "Strong match in blurb with keywords: agent, stolen drive, kremlin. Mapped to Espionage under Thriller."
+    },
+    {
+        "id": 3,
+        "tags": [
+            "Scary",
+            "House"
+        ],
+        "blurb": "The old Victorian mansion seemed to breathe, its corridors whispering secrets of the family's dark past.",
+        "mapping": "Horror: Gothic",
+        "reasoning": "Strong match in blurb with keywords: victorian mansion, breathe, whispering, dark past, corridors. Mapped to Gothic under Horror."
+    },
+    {
+        "id": 4,
+        "tags": [
+            "Love",
+            "Future"
+        ],
+        "blurb": "A story about a man who falls in love with his AI operating system in a neon-drenched Tokyo.",
+        "mapping": "Sci-Fi: Cyberpunk",
+        "reasoning": "Strong match in blurb with keywords: ai, operating system, neon-drenched, tokyo. Mapped to Cyberpunk under Sci-Fi."
+    },
+    {
+        "id": 5,
+        "tags": [
+            "Action"
+        ],
+        "blurb": "The lawyer stood before the judge, knowing this cross-examination would decide the fate of the city.",
+        "mapping": "Thriller: Legal Thriller",
+        "reasoning": "Strong match in blurb with keywords: lawyer, judge, cross-examination, fate of the city. Mapped to Legal Thriller under Thriller."
+    },
+    {
+        "id": 6,
+        "tags": [
+            "Space"
+        ],
+        "blurb": "How to build a telescope in your backyard using basic household items.",
+        "mapping": "[UNMAPPED]",
+        "reasoning": "No relevant keywords found in blurb or tags - does not fit any fiction sub-genre."
+    },
+    {
+        "id": 7,
+        "tags": [
+            "Sad",
+            "Love"
+        ],
+        "blurb": "They met again 20 years after the war, both gray-haired, wondering what could have been.",
+        "mapping": "Romance: Second Chance",
+        "reasoning": "Strong match in blurb with keywords: met again, gray-haired, what could have been, after the war. Mapped to Second Chance under Romance."
+    },
+    {
+        "id": 8,
+        "tags": [
+            "Robots"
+        ],
+        "blurb": "A deep dive into the physics of FTL travel and the metabolic needs of long-term stasis.",
+        "mapping": "Sci-Fi: Hard Sci-Fi",
+        "reasoning": "Strong match in blurb with keywords: physics, ftl travel, stasis, metabolic, deep dive. Mapped to Hard Sci-Fi under Sci-Fi."
+    },
+    {
+        "id": 9,
+        "tags": [
+            "Ghost"
+        ],
+        "blurb": "A masked killer stalks a group of teenagers at a summer camp.",
+        "mapping": "Horror: Slasher",
+        "reasoning": "Strong match in blurb with keywords: masked killer, stalks, teenagers, summer camp. Mapped to Slasher under Horror."
+    },
+    {
+        "id": 10,
+        "tags": [
+            "Recipe",
+            "Sweet"
+        ],
+        "blurb": "Mix two cups of flour with sugar and bake at 350 degrees.",
+        "mapping": "[UNMAPPED]",
+        "reasoning": "No relevant keywords found in blurb or tags - does not fit any fiction sub-genre."
+    }
+]

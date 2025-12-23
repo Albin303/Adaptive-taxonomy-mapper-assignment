@@ -1,0 +1,26 @@
+    Adaptive Taxonomy Mapper - System Design Answers
+    By Albin Biju
+    Date: December 23, 2025
+
+    1. How would you handle a taxonomy that has 5,000 categories instead of 12?
+    
+    With only 12 categories, keyword matching works great. But for 5,000 categories, it wouldn't scale well. 
+    I would use sentence embeddings (for example, using SentenceTransformers library from Hugging Face). 
+    I would pre-compute embeddings for all category names or short descriptions once and store them. 
+    Then, for each new story blurb, compute its embedding and find the closest matching categories using cosine similarity. 
+    For faster search at scale, I would use a library like FAISS.
+
+    2. How would you minimize LLM costs if we had to process 1 million stories a month?
+
+    LLM calls are expensive, so I would use a hybrid approach. 
+    First, run a fast and cheap keyword/rule-based system (like what I built) on all stories — this would correctly classify 70-80% of clear cases. 
+    Only send the ambiguous or low-confidence stories to an LLM for better accuracy. 
+    Additionally, batch multiple stories in one API call and cache frequent results to avoid repeat calls.
+
+    3. How do you ensure the model doesn't "hallucinate" sub-genres that don't exist in the JSON?
+    
+    The safest way is post-processing validation. 
+    No matter what the model outputs (keyword system or LLM), I would always check if the predicted sub-genre exactly exists in the taxonomy dictionary. 
+    If it doesn't match any entry, force it to [UNMAPPED]. 
+    If using LLM, I would also include the full taxonomy JSON in the prompt and strictly instruct: 
+    "Only choose a sub-genre from this exact list, never make up new ones, otherwise return [UNMAPPED]".
